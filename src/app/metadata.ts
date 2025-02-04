@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
 
-const title = 'InstaCaption - AI-Powered Instagram Caption Generator by Softwarify'
-const description = 'Generate engaging, creative Instagram captions instantly with AI. Upload your photo and get the perfect caption for maximum engagement. A product by Softwarify.'
+const title = 'InstaCaption - AI Caption Generator | Softwarify'
+const description = 'Generate engaging Instagram captions instantly with AI. Upload photos and get perfect captions for maximum engagement. Powered by Softwarify.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://instacaption.vercel.app'),
   title: {
     default: title,
-    template: '%s | InstaCaption by Softwarify'
+    template: '%s | InstaCaption'
   },
   description,
   applicationName: 'InstaCaption',
@@ -96,7 +96,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://instacaption.vercel.app',
     languages: {
-      'en-US': 'https://instacaption.vercel.app'
+      'en-US': 'https://instacaption.vercel.app',
+      'en': 'https://instacaption.vercel.app'
     }
   },
   verification: {

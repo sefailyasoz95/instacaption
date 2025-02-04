@@ -1,36 +1,40 @@
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
 
-const title = 'InstaCaption - AI Caption Generator | Softwarify'
-const description = 'Generate engaging Instagram captions instantly with AI. Upload photos and get perfect captions for maximum engagement. Powered by Softwarify.'
+const title = "InstaCaption - AI Caption Generator FREE | Softwarify";
+const description =
+  "Generate engaging Instagram captions instantly with AI. Upload photos and get perfect captions for maximum engagement. Powered by Softwarify.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://instacaption.vercel.app'),
+  metadataBase: new URL("https://instacaption.vercel.app"),
   title: {
     default: title,
-    template: '%s | InstaCaption'
+    template: "%s | InstaCaption",
   },
   description,
-  applicationName: 'InstaCaption',
-  referrer: 'origin-when-cross-origin',
+  applicationName: "InstaCaption",
+  referrer: "origin-when-cross-origin",
   keywords: [
-    'Instagram caption generator',
-    'AI caption generator',
-    'social media caption',
-    'Instagram post helper',
-    'AI writing assistant',
-    'photo caption generator',
-    'Instagram content creation',
-    'social media tools',
-    'Instagram marketing',
-    'AI content generator',
-    'Softwarify tools',
-    'Instagram AI',
-    'social media automation',
-    'content creation tool'
+    "Instagram caption generator",
+    "AI caption generator",
+    "social media caption",
+    "Instagram post helper",
+    "AI writing assistant",
+    "photo caption generator",
+    "Instagram content creation",
+    "social media tools",
+    "Instagram marketing",
+    "AI content generator",
+    "Softwarify tools",
+    "Instagram AI",
+    "social media automation",
+    "content creation tool",
+    "Free Instagram caption generator",
+    "free ai app",
+    "free caption generator",
   ],
-  authors: [{ name: 'Softwarify', url: 'https://softwarify.co' }],
-  creator: 'Softwarify',
-  publisher: 'Softwarify',
+  authors: [{ name: "Softwarify", url: "https://softwarify.co" }],
+  creator: "Softwarify",
+  publisher: "Softwarify",
   formatDetection: {
     email: false,
     address: false,
@@ -43,68 +47,64 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
       noimageindex: false,
     },
   },
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://instacaption.vercel.app',
+    type: "website",
+    locale: "en_US",
+    url: "https://instacaption.vercel.app",
     title,
     description,
     siteName: title,
     images: [
       {
-        url: '/og-image.png',
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: 'InstaCaption - AI-Powered Instagram Caption Generator by Softwarify'
-      }
+        alt: "InstaCaption - AI-Powered Instagram Caption Generator by Softwarify",
+      },
     ],
-    countryName: 'United States',
+    countryName: "United States",
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title,
     description,
-    images: ['/og-image.png'],
-    creator: '@softwarify',
-    site: '@softwarify',
-    creatorId: '1467726470533754880'
+    images: ["/og-image.png"],
+    creator: "@softwarify",
+    site: "@softwarify",
+    creatorId: "1467726470533754880",
   },
   viewport: {
-    width: 'device-width',
+    width: "device-width",
     initialScale: 1,
     maximumScale: 5,
   },
-  manifest: '/manifest.json',
+  manifest: "/manifest.json",
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico' }
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico" },
     ],
-    shortcut: [
-      { url: '/favicon.svg', type: 'image/svg+xml' }
-    ],
-    apple: [
-      { url: '/apple-icon.png' }
-    ]
+    shortcut: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/apple-icon.png" }],
   },
   alternates: {
-    canonical: 'https://instacaption.vercel.app',
+    canonical: "https://instacaption.vercel.app",
     languages: {
-      'en-US': 'https://instacaption.vercel.app',
-      'en': 'https://instacaption.vercel.app'
-    }
+      "en-US": "https://instacaption.vercel.app",
+      en: "https://instacaption.vercel.app",
+    },
   },
   verification: {
-    google: 'your-google-site-verification',
-    yandex: 'your-yandex-verification',
-    yahoo: 'your-yahoo-verification'
+    google: "your-google-site-verification",
+    yandex: "your-yandex-verification",
+    yahoo: "your-yahoo-verification",
   },
-  category: 'technology',
-  classification: 'AI Tools & Utilities',
-}
+  category: "technology",
+  classification: "AI Tools & Utilities",
+};
